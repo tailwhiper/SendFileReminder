@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Files2Send Planner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About me</string>
+    <string name="plans_path">plans.json</string>
+    <string name="testtext">Medium Text</string>
+    <string name="Buttontext">test</string>
+    <string name="select_contact">Contact is not selected</string>
+    <string name="select_contact_button">Choose contact</string>
+    <string name="select_file">File is not selected</string>
+    <string name="select_file_button">Choose File</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_chooser_activity">chooser</string>
+    <string name="if_no_picked">"Contact and File cannot be empty "</string>
+    <string name="contact_text">Contact:</string>
+    <string name="file_text">File:</string>
+    <string name="menu_about">About</string>
+    <string name="about_dialog_title">About this app</string>
+    <string name="about_dialog_message">Lab work num 2:\nfiles2send \n*with dictophone recording\nAuthor: Nikita Fedyunin \nGroup: 6122 \nUniversity: SSAU</string>
+    <string name="choose_file_button">Choose file</string>
+    <string name="choose_contact_button">Choose contact</string>
+    <string name="add">Add</string>
+    <string name="decline">Decline</string>
+</resources>

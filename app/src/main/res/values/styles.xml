@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+
+
+    </style>
+
+
+    <style name="ActionBar" parent="android:Widget.DeviceDefault.ActionBar.Solid">
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:titleTextStyle">@style/title_text_style</item>
+
+    </style>
+
+
+    <style name="title_text_style">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">
+            @drawable/buttonshape
+        </item>
+        <item name="android:padding">
+            15dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="textview">
+        <item name="android:layout_centerHorizontal">true</item>
+
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">
+            @drawable/transparent_rounded_rectaingle
+        </item>
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <style name="card">
+        <item name="android:background">
+            @drawable/transparent_rounded_rectaingle
+        </item>
+    </style>
+
+    <style name="gradient_background">
+        <item name="android:background">
+            @drawable/background
+        </item>
+    </style>
+
+    <color name="actionbar_color">#51337e</color>
+    <color name="text_color">#ffffff</color>
+</resources>

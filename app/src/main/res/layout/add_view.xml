@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/contact_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/selected_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_id"
+        android:layout_centerHorizontal="true"
+        android:text="Choose contact" />
+
+    <TextView
+        android:id="@+id/text_file"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected_contact"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/selected_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/selected_contact"
+        android:layout_alignStart="@+id/selected_contact"
+        android:layout_below="@+id/text_file"
+        android:layout_marginTop="16dp"
+        android:text="Choose file" />
+
+    <ImageButton
+        android:id="@+id/ok_choose_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/selected_file"
+        android:layout_below="@+id/selected_file"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_accept" />
+
+    <ImageButton
+        android:id="@+id/not_choose_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/selected_file"
+        android:layout_alignTop="@+id/ok_choose_button"
+        android:background="@drawable/ic_decline" />
+
+</RelativeLayout>
